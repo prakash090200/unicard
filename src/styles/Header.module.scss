@@ -1,0 +1,139 @@
+.header{
+  width:100%;
+  height: 30vw;
+  background-color: lightseagreen;
+}
+
+.headerSection{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 90%;
+   margin: auto;
+}
+
+.headerLeft{
+  width: 40%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.headerRight{
+  width:40%;
+  img{
+  width: 40%;
+  height: 50vh;
+  object-fit: cover;
+  }
+}
+
+.buttonuniCard{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 11px 30px;
+    font-weight: 500;
+    border-radius: 0.75rem;
+    border: none;
+  }
+
+  .uniIcon{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    .uniIcon img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  
+  .uniIcons{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .headerText{
+    align-items: left;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: black;
+    width: 500px;
+  }
+
+  .headerSubText{
+    display: flex;
+    flex-direction: row;
+    column-gap:1vh;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: black;
+    width: 100%;
+    padding-top: 5vh;
+  }
+
+
+  .form{
+    width: 60%;
+    height: 6vh;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    padding: 3px;
+    background-color: black;
+  }
+  .inputField {
+    flex:2;
+    margin: 0vh 0.5rem;
+  
+  }
+  .inputField input{
+    outline: none;
+    border: none;
+    background-color:transparent;
+    font-size: 0.8rem ;
+    
+  }
+
+  .applyNow{
+    flex:1;
+    display: flex;
+    border: none;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+    align-self: flex-end;
+    height: 100%;
+    background-color: rgb(253,239,120);
+    color: black;
+    border-radius: 0.75rem;
+
+  }
+  .checkBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2vh;
+    gap: 1vw;
+    width: 50%;
+  }
+  .checkBox input{
+    background-color: white;
+  }
+  .unicardNote{
+    color: black;
+    font-size: 0.5rem;
+  }
+ 

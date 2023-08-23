@@ -1,0 +1,18 @@
+.child {
+  font-size: 2rem;
+  padding: 2rem;
+}
+.child span {
+  color: grey;
+}
+.child p {
+  margin: 0;
+}
+
+.child2 img {
+  transform: rotate(90deg);
+}
+
+.child6 span {
+  color: lightgreen;
+}/*# sourceMappingURL=Body.module.css.map */
